@@ -51,13 +51,16 @@ body {
   color: #000;
   font-size: 150%;
   padding-bottom: 17px;
-  border-bottom: solid rgba(0, 0, 0, 0.808) 3px;
 }
 
 .header-nav__list a:hover {
-  border-bottom: solid rgba(255, 0, 0, 0.808) 3px;
+  
+  border-bottom: solid rgba(0, 0, 0, 0.808) 3px;
   transition: 0.3s;
 }
+
+
+
 
 .header-nav__list a span {
   padding-top: 5px;
@@ -167,19 +170,24 @@ body {
   border-radius: 1%;
   width: 80%;
   margin: 2% auto 0 auto;
-  font-size: 200%;
+
+
 }
 
-.information-list tr {
-  text-align: center;
+
+.information-list th {
+   font-size: 150%;
+   font-weight: bold;
 }
 
 .information-list td {
   display: block;
   border: solid #000 2px;
-  padding: 2% 0;
+  padding: 2% 5%;
   line-height: 1.5;
   margin: 2% 2%;
+  font-size: 150%;
+  width: 85%;
 }
 
 .map-image {
@@ -256,16 +264,17 @@ label {
 }
 
 .button-box {
-  margin: 3% 0;
-  width: 60%;
+  margin: 3% auto;
+  width: 15%;
+
 }
 
 .button-box input {
   width: 100%;
-  padding: 2% 0;
+  padding: 10% 0;
   font-size: 100%;
-  position: relative;
-  left: 55%;
+
+
 }
 
 .footer-txt {
